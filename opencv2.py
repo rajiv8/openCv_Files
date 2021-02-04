@@ -6,6 +6,11 @@ import cv2
 # captures the live camera 
 cap = cv2.VideoCapture(0)   # cv2.VideoCapture(0) - if wants to capture video file
 
+# to get the frame width 
+print(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+# to get frame height
+print(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
 # for looping the video 
 while(True):
     ret,frame = cap.read() 
