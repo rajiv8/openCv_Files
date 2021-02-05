@@ -11,6 +11,15 @@ print(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 # to get frame height
 print(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
+# to set the frame width
+cap.set(3,400)
+# to set frame height
+cap.set(4,400)
+
+# printing the width and height of frame 
+print(cap.get(3)) # 3 is a default code for width
+print(cap.get(4)) # 4 is default code for height 
+
 # for looping the video 
 while(True):
     ret,frame = cap.read() 
