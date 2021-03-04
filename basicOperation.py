@@ -25,7 +25,7 @@ img2=cv2.resize(img2,(512,512))
 # print(output.shape) # checking the shape of resized image 
 # img = cv2.merge((b,g,r)) # merging the three channels 
 
-# `def click_event(event,x,y,flags,params):
+# def click_event(event,x,y,flags,params):
 #     if event == cv2.EVENT_LBUTTONDOWN:
 #         print(x,",",y)  # x, y are co-ordinates of clicks 
 #         cv2.imshow('image',output)
